@@ -10,6 +10,8 @@ Performance Metrics:
 Root Mean Squared Error (RMSE): 1.645
 R² Score on Training Data: 0.896
 R² Score on Test Data: 0.899
+![image](https://github.com/user-attachments/assets/a7646bcb-36ce-43f1-92cd-a95e6cc29e1b)
+
 Features:
 
 User Input: Enter advertisement spends for TV, Radio, and Newspaper.
