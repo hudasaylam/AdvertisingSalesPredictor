@@ -1,9 +1,10 @@
 # AdvertisingSalesPredictor
 The application is designed to predict sales based on the number of advertisements across different media types using a linear regression model. It leverages an ASP.NET MVC 6 frontend to collect user input and a Flask backend to handle predictions.
+![image](https://github.com/user-attachments/assets/6a3cfa00-992b-4a06-832f-17da18bd163c)
 
 
 
-This project demonstrates how to integrate a linear regression model with a web application using ASP.NET MVC 6 and Flask. The application predicts sales based on advertisement spending across different media types.
+This simple project demonstrates how to integrate a linear regression model with a web application using ASP.NET MVC 6 and Flask. The application predicts sales based on advertisement spending across different media types.
 
 Performance Metrics:
 
