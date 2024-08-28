@@ -16,7 +16,9 @@ Features:
 
 User Input: Enter advertisement spends for TV, Radio, and Newspaper.
 Prediction: Get sales forecasts based on the input data.
-Purpose:
+
+
+ Purpose:
 
 This project was created to learn how to use Flask with ASP.NET and integrate a machine learning model into a web application.
 
