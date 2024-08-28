@@ -1,0 +1,41 @@
+﻿@model Advertising.Models.PredictionModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Prediction</title>
+</head>
+<body>
+    <h2>Enter Advertising Budgets</h2>
+    <form asp-action="Index" method="post">
+        <div>
+            <label asp-for="TV">TV Budget:</label>
+            <input asp-for="TV" />
+            <span asp-validation-for="TV"></span>
+        </div>
+        <div>
+            <label asp-for="Radio">Radio Budget:</label>
+            <input asp-for="Radio" />
+            <span asp-validation-for="Radio"></span>
+        </div>
+        <div>
+            <label asp-for="Newspaper">Newspaper Budget:</label>
+            <input asp-for="Newspaper" />
+            <span asp-validation-for="Newspaper"></span>
+        </div>
+        <div>
+            <button type="submit">Predict</button>
+        </div>
+    </form>
+
+    @if (Model.Prediction.HasValue)
+    {
+        <h3>Predicted Sales: @Model.Prediction.Value</h3>
+    }
+
+    <script src="~/js/jquery-3.6.0.min.js"></script>
+    <script src="~/js/jquery.validate.min.js"></script>
+    <script src="~/js/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>
